@@ -137,175 +137,210 @@ body {
 
 .color1 .solid-color {
     background-color: var(--fuchsia);
+    box-shadow: 0 0 15px hsla(300, 48%, 51%, 0.8);
 }
 
 
 /* color 2 */
 .color2 .solid-color {
     background-color: var(--shockingpink);
+    box-shadow: 0 0 15px hsla(309, 72%, 73%, 0.8);
 }
 
 /* color 3 */
 .color3 .solid-color {
     background-color: var(--purplepizzazz);
+    box-shadow: 0 0 15px hsla(320, 90%, 55%, 0.8);
 }
 
 /* color 4 */
 .color4 .solid-color {
     background-color: var(--hotmagenta);
+    box-shadow: 0 0 15px hsla(322, 95%, 58%, 0.8);
 }
 
 /* color 5 */
 .color5 .solid-color {
     background-color: var(--razzledazzlerose);
+    box-shadow: 0 0 15px hsla(317, 76%, 59%, 0.8);
 }
 
 /* color 6 */
 .color6 .solid-color {
     background-color: var(--cerise);
+    box-shadow: 0 0 15px hsla(319, 79%, 61%, 0.8);
 }
 
 /* color 7 */
 .color7 .solid-color {
     background-color: var(--jazzberryjam);
+    box-shadow: 0 0 15px hsla(330, 83%, 53%, 0.8);
 }
 
 /* color 8 */
 .color8 .solid-color {
     background-color: var(--razzmatazz);
+    box-shadow: 0 0 15px hsla(330, 79%, 37%, 0.8);
 }
 
 /* color 9 */
 .color9 .solid-color {
     background-color: var(--maroon);
+    box-shadow: 0 0 15px hsla(338, 87%, 34%, 0.8);
 }
 
 /* color 10 */
 .color10 .solid-color {
     background-color: var(--radicalred);
+    box-shadow: 0 0 15px hsla(342, 78%, 60%, 0.8);
 }
 
 /* color 11 */
 .color11 .solid-color {
     background-color: var(--wildwatermelon);
+    box-shadow: 0 0 15px hsla(344, 65%, 74%, 0.8);
 }
 
 /* color 12 */
 .color12 .solid-color {
     background-color: var(--vividtangerine);
+    box-shadow: 0 0 15px hsla(15, 75%, 68%, 0.8);
 }
 
 /* color 13 */
 .color13 .solid-color {
     background-color: var(--copper);
+    box-shadow: 0 0 15px hsla(31, 45%, 42%, 0.8);
 }
 
 /* color 14 */
 .color14 .solid-color {
     background-color: var(--atomictangerine);
+    box-shadow: 0 0 15px hsla(23, 66%, 59%, 0.8);
 }
 
 /* color 15 */
 .color15 .solid-color {
     background-color: var(--outrageousorange);
+    box-shadow: 0 0 15px hsla(17, 71%, 54%, 0.8);
 }
 
 /* color 16 */
 .color16 .solid-color {
     background-color: var(--mangotango);
+    box-shadow: 0 0 15px hsla(22, 78%, 59%, 0.8);
 }
 
 /* color 17 */
 .color17 .solid-color {
     background-color: var(--neoncarrot);
+    box-shadow: 0 0 15px hsla(38, 69%, 58%, 0.8);
 }
 
 /* color 18 */
 .color18 .solid-color {
     background-color: var(--sunglow);
+    box-shadow: 0 0 15px hsla(47, 75%, 61%, 0.8);
 }
 
 /* color 19 */
 .color19 .solid-color {
     background-color: var(--laserlemon);
+    box-shadow: 0 0 15px hsla(53, 74%, 65%, 0.8);
 }
 
 /* color 20 */
 .color20 .solid-color {
     background-color: var(--unmellowyellow);
+    box-shadow: 0 0 15px hsla(59, 64%, 60%, 0.8);
 }
 
 /* color 21 */
 .color21 .solid-color {
     background-color: var(--inchworm);
+    box-shadow: 0 0 15px hsla(78, 64%, 70%, 0.8);
 }
 
 /* color 22 */
 .color22 .solid-color {
     background-color: var(--screamingreen);
+    box-shadow: 0 0 15px hsla(93, 93%, 55%, 0.8);
 }
 
 /* color 23 */
 .color23 .solid-color {
     background-color: var(--electriclime);
+    box-shadow: 0 0 15px hsla(101, 85%, 51%, 0.8);
 }
 
 /* color 24 */
 .color24 .solid-color {
     background-color: var(--shamrock);
+    box-shadow: 0 0 15px hsla(166, 68%, 56%, 0.8);
 }
 
 /* color 25 */
 .color25 .solid-color {
     background-color: var(--junglegreen);
+    box-shadow: 0 0 15px hsla(180, 75%, 43%, 0.8);
 }
 
 /* color 26 */
 .color26 .solid-color {
     background-color: var(--tropicalrainforest);
+    box-shadow: 0 0 15px hsla(148, 91%, 21%, 0.8);
 }
 
 /* color 27 */
 .color27 .solid-color {
     background-color: var(--pinegreen);
+    box-shadow: 0 0 15px hsla(184, 90%, 26%, 0.8);
 }
 
 /* color 28 */
 .color28 .solid-color {
     background-color: var(--navyblue);
+    box-shadow: 0 0 15px hsla(201, 82%, 36%, 0.8);
 }
 
 /* color 29 */
 .color29 .solid-color {
     background-color: var(--denim);
+    box-shadow: 0 0 15px hsla(211, 55%, 49%, 0.8);
 }
 
 /* color 30 */
 .color30 .solid-color {
     background-color: var(--midnightblue);
+    box-shadow: 0 0 15px hsla(220, 54%, 34%, 0.8);
 }
 
 /* color 31 */
 .color31 .solid-color {
     background-color: var(--midnightblue);
+    box-shadow: 0 0 15px hsla(229, 80%, 20%, 0.8);
 }
 
 /* color 32 */
 .color32 .solid-color {
     background-color: var(--royalpurple);
+    box-shadow: 0 0 15px hsla(279, 51%, 57%, 0.8);
 }
 
 /* color 33 */
 .color33 .solid-color {
     background-color: var(--vividviolet);
+    box-shadow: 0 0 15px hsla(285, 66%, 66%, 0.8);
 }
 
 /* color 34 */
 .color34 .solid-color {
     background-color: var(--eggplant);
+    box-shadow: 0 0 15px hsla(40, 20%, 46%, 0.8);
 }
 
 /* color 35 */
 .color35 .solid-color {
     background-color: var(--manatee);
+    box-shadow: 0 0 15px hsla(0, 0%, 40%, 0.8);
 }
