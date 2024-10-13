@@ -4,12 +4,308 @@
     box-sizing: border-box;
 }
 
+:root {
+    --fuchsia: #c363c4;
+    --shockingpink: #fb7efd;
+    --purplepizzazz: #ff1dce;
+    --hotmagenta: #ff1dce;
+    --razzledazzlerose: #ff48d0;
+    --cerise: #ff43a4;
+    --jazzberryjam: #ca3767;
+    --razzmatazz: #e3256b;
+
+    --maroon: #c8385a;
+    --radicalred: #ff496c;
+    --wildwatermelon: #fc6c85;
+    --vividtangerine: #ffa089;
+    --copper: #dd9475;
+    --atomictangerine: #ffa474;
+    --outrageousorange: #ff6e4a;
+    --mangotango: #ff8243;
+
+    --neoncarrot: #ffa343;
+    --sunglow: #ffcf48;
+    --laserlemon: #fdfc74;
+    --unmellowyellow: #f7f785;
+    --inchworm: #b2ec5d;
+    --screamingreen: #76ff7a;
+    --electriclime: #1df914;
+    --shamrock: #45cea2;
+
+    --junglegreen: #3bb08f;
+    --tropicalrainforest: #17806d;
+    --pinegreen: #158078;
+    --navyblue: #1974d2;
+    --denim: #2b6cc4;
+    --midnightblue: #1a4876;
+    --wildbluewonder: #a2add0;
+    --royalpurple: #7851a9;
+
+    --vividviolet: #8f509d;
+    --eggplant: #6e5160;
+    --manatee: #979aaa;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
-    color: #333;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.gradient-text {
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(to right, red, pink, violet, brown);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 10px rgba(27, 27, 27, 0.2);
+}
+
+
+.content {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.color-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.color-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.solid-color {
+    width: 230px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+    margin-right: -21%;
+}
+
+.line {
+    width: 4px;
+    height: 25px;
+    background-color: black;
+    margin: 2px;
+}
+
+/* Transparent section */
+.transparent-section {
+    width: 120px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.303);
+    margin-left: 20%;
+}
+
+.label {
+    font-weight: bold;
+    font-size: 10px;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    color: black;
+}
+
+.color-section>div,
+.color-section>.line {
     margin: 0;
     padding: 0;
-    min-height: 100vh;
+}
+
+.color1 .solid-color {
+    background-color: var(--fuchsia);
+}
+
+
+/* color 2 */
+.color2 .solid-color {
+    background-color: var(--shockingpink);
+}
+
+/* color 3 */
+.color3 .solid-color {
+    background-color: var(--purplepizzazz);
+}
+
+/* color 4 */
+.color4 .solid-color {
+    background-color: var(--hotmagenta);
+}
+
+/* color 5 */
+.color5 .solid-color {
+    background-color: var(--razzledazzlerose);
+}
+
+/* color 6 */
+.color6 .solid-color {
+    background-color: var(--cerise);
+}
+
+/* color 7 */
+.color7 .solid-color {
+    background-color: var(--jazzberryjam);
+}
+
+/* color 8 */
+.color8 .solid-color {
+    background-color: var(--razzmatazz);
+}
+
+/* color 9 */
+.color9 .solid-color {
+    background-color: var(--maroon);
+}
+
+/* color 10 */
+.color10 .solid-color {
+    background-color: var(--radicalred);
+}
+
+/* color 11 */
+.color11 .solid-color {
+    background-color: var(--wildwatermelon);
+}
+
+/* color 12 */
+.color12 .solid-color {
+    background-color: var(--vividtangerine);
+}
+
+/* color 13 */
+.color13 .solid-color {
+    background-color: var(--copper);
+}
+
+/* color 14 */
+.color14 .solid-color {
+    background-color: var(--atomictangerine);
+}
+
+/* color 15 */
+.color15 .solid-color {
+    background-color: var(--outrageousorange);
+}
+
+/* color 16 */
+.color16 .solid-color {
+    background-color: var(--mangotango);
+}
+
+/* color 17 */
+.color17 .solid-color {
+    background-color: var(--neoncarrot);
+}
+
+/* color 18 */
+.color18 .solid-color {
+    background-color: var(--sunglow);
+}
+
+/* color 19 */
+.color19 .solid-color {
+    background-color: var(--laserlemon);
+}
+
+/* color 20 */
+.color20 .solid-color {
+    background-color: var(--unmellowyellow);
+}
+
+/* color 21 */
+.color21 .solid-color {
+    background-color: var(--inchworm);
+}
+
+/* color 22 */
+.color22 .solid-color {
+    background-color: var(--screamingreen);
+}
+
+/* color 23 */
+.color23 .solid-color {
+    background-color: var(--electriclime);
+}
+
+/* color 24 */
+.color24 .solid-color {
+    background-color: var(--shamrock);
+}
+
+/* color 25 */
+.color25 .solid-color {
+    background-color: var(--junglegreen);
+}
+
+/* color 26 */
+.color26 .solid-color {
+    background-color: var(--tropicalrainforest);
+}
+
+/* color 27 */
+.color27 .solid-color {
+    background-color: var(--pinegreen);
+}
+
+/* color 28 */
+.color28 .solid-color {
+    background-color: var(--navyblue);
+}
+
+/* color 29 */
+.color29 .solid-color {
+    background-color: var(--denim);
+}
+
+/* color 30 */
+.color30 .solid-color {
+    background-color: var(--midnightblue);
+}
+
+/* color 31 */
+.color31 .solid-color {
+    background-color: var(--midnightblue);
+}
+
+/* color 32 */
+.color32 .solid-color {
+    background-color: var(--royalpurple);
+}
+
+/* color 33 */
+.color33 .solid-color {
+    background-color: var(--vividviolet);
+}
+
+/* color 34 */
+.color34 .solid-color {
+    background-color: var(--eggplant);
+}
+
+/* color 35 */
+.color35 .solid-color {
+    background-color: var(--manatee);
 }
