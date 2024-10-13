@@ -344,3 +344,12 @@ body {
     background-color: var(--manatee);
     box-shadow: 0 0 15px hsla(0, 0%, 40%, 0.8);
 }
+
+.footer {
+    height: 10vh;
+    font-size: small;
+    margin-top: 4rem;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
